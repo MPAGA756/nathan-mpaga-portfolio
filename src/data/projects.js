@@ -8,7 +8,7 @@
  *   shortDescription,   // pour la carte
  *   fullDescription,    // pour une future page dédiée /projects/slug
  *   technologies: [],
- *   coverImage,          // chemin dans /public/projects/<slug>/cover.jpg
+ *   coverImage,          // chemin dans /public/projects/<slug>/cover.png
  *   github, demo,        // null si non disponible
  *   featured,
  * }
@@ -24,7 +24,7 @@ export const projects = [
     fullDescription:
       "EasyCar Location est une application mobile développée avec Flutter, orientée vers une expérience utilisateur soignée en Material Design 3. Elle gère la location de voitures avec des données locales (mock) et une architecture basée sur Provider pour la gestion d'état.",
     technologies: ['Flutter', 'Dart', 'Material Design 3', 'Provider'],
-    coverImage: '/projects/easycar-location/cover.jpg',
+    coverImage: '/projects/easycar-location/cover.png',
     github: null,
     demo: null,
     featured: true,
@@ -39,7 +39,7 @@ export const projects = [
     fullDescription:
       "Saint Esprit est une application web ambitieuse de gestion d'établissement scolaire. Frontend en React/Vite/Tailwind avec shadcn/ui, backend NestJS, base de données PostgreSQL via Prisma, fonctionnalités temps réel avec Socket.io, et un ensemble de mesures de sécurité (reCAPTCHA v3, bcrypt, rate limiting, protection IDOR).",
     technologies: ['React', 'NestJS', 'PostgreSQL', 'Prisma', 'Socket.io'],
-    coverImage: '/projects/saint-esprit/cover.jpg',
+    coverImage: '/projects/saint-esprit/cover.png',
     github: null,
     demo: null,
     featured: true,
@@ -53,7 +53,7 @@ export const projects = [
     fullDescription:
       'Velox Drive est un site web permettant la location de voitures, construit avec React et Vite.',
     technologies: ['React', 'Vite'],
-    coverImage: '/projects/velox-drive/cover.jpg',
+    coverImage: '/projects/velox-drive/cover.png',
     github: 'https://github.com/MPAGA756/velox-drive',
     demo: null,
     featured: false,
@@ -67,7 +67,7 @@ export const projects = [
     fullDescription:
       'LuxuryCar est un prototype de site web pensé pour un concessionnaire de voitures, développé avec React et Vite.',
     technologies: ['React', 'Vite'],
-    coverImage: '/projects/luxurycar/cover.jpg',
+    coverImage: '/projects/luxurycar/cover.png',
     github: 'https://github.com/MPAGA756/luxurycar',
     demo: null,
     featured: false,
@@ -81,7 +81,7 @@ export const projects = [
     fullDescription:
       'HighwayRush est un projet de jeu vidéo de course développé avec Unity 6.',
     technologies: ['Unity', 'C#'],
-    coverImage: '/projects/highwayrush/cover.jpg',
+    coverImage: '/projects/highwayrush/cover.png',
     github: null,
     demo: null,
     featured: false,
